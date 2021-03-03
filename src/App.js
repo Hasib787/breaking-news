@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import Header from './components/Header/Header';
 import News from './components/News/News';
+import TopHeadline from './components/TopHeadline/TopHeadline';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="container">
       <h2>React Bootstrap</h2>
       <Header></Header>
-      <News></News>
+      <TopHeadline></TopHeadline>
     </div>
   );
 }
